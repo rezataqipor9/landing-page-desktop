@@ -1,0 +1,23 @@
+.secstion-about {
+    background-color: $color-gray-light-1;
+    padding: 25rem 0;
+    margin-top: -10vh;
+}
+
+.secstion-feature {
+    background-color: $color-gray-light-1;
+    padding: 25rem 0;
+    margin-top: -20vh;
+    background-image: linear-gradient(315deg,
+            rgba($color-background, 0.7) 10%,
+            rgba($color-background-2, 0.6) 46%,
+            rgba($color-background-3, 0.8) 100%),
+        url(../../assets/roof-unsplash.jpg);
+    background-size: cover;
+    ;
+    clip-path: polygon(0 20vh, 100% 0%, 100% 100%, 0 100%);
+}
+.secstion-tour{
+    background-color: #F7F7F7;
+    padding: 25rem 0 50rem 0;
+}

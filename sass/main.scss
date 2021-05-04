@@ -1,0 +1,57 @@
+@import 'base/base';
+@import 'base/animation';
+@import 'base/typography';
+@import 'abstracts/function';
+@import 'abstracts/mixin';
+@import 'abstracts/variable';
+@import 'base/components/button';
+@import 'base/components/header';
+@import 'pages/homepage';
+@import "layout/layout";
+@import 'base/utility';
+@import 'base/components/composition';
+@import 'base/components/feature-box';
+@import 'base/components/card';
+.Health-span {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.header-primary-span {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+
+
+.heading-primary {
+    background: rgba($color-heading-primary-backgroud, 0.60);
+    box-shadow: 0 8px 32px 0 rgba($color-heading-primary-boxshadow, 0.37);
+    backdrop-filter: blur(2.0px);
+    -webkit-backdrop-filter: blur(2.0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 6rem .8rem;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    color: $color-black;
+    position: relative;
+    text-transform: uppercase;
+    &--main {
+        animation: moveInLeft 1s ease-out;
+        letter-spacing: 4vw;
+        font-size: 3.6rem;
+    }
+    &--secondary {
+        animation: moveInRight 1.2s ease-out;
+        font-size: 1rem;
+        margin-top: 4rem;
+        letter-spacing: .8rem;
+    }
+}
+
+
